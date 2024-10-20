@@ -103,7 +103,7 @@ print("Greatest Increase in Profits: " + str(greatest_increase_month) + " ($" + 
 print("Greatest Decrease in Profits: " + str(greatest_decrease_month) + " ($" + str(greatest_decrease)+ ")")
 
 # Write financial analysis to text file
-with open(r'analysis/financial_analysis.txt', 'w') as text:
+with open('financial_analysis.txt', 'w') as text:
     text.write("Financial Analysis"+ "\n")
     text.write("----------------------------\n")
     text.write("Total Months: " + str(count) + "\n")

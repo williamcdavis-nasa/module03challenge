@@ -89,7 +89,7 @@ print("Winner: " + str(winner))
 print("----------------------------")
 
 # Write election results analysis to text file
-with open('elections_results.txt', 'w') as text:
+with open(r'analysis/elections_results.txt', 'w') as text:
     text.write("Election Results"+ "\n")
     text.write("----------------------------\n")
     text.write("Total Votes: " + str(votes) + "\n")
